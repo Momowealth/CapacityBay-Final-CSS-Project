@@ -95,7 +95,7 @@ nav ul li a:hover {
 .hamburger div:not(:last-child){
     margin-bottom: 5px;
 }
-/* Imo and Duomo*/
+/* Imo and Doumo*/
 section{
     display: flex;
     justify-content: space-between;
@@ -135,21 +135,14 @@ section{
 .illus img{
     width: 100%;
 }
-
+/* End of section by Imo Peter and Doumo Ngumezi */
 @media(max-width:1237px){
+    /* By Doumo and Imo */
     .content{
         width: 40%;  
-        margin: 50px 0 0 105px;
-        
+        margin: 50px 0 0 105px;   
    }
-
-}
-@media(max-width:1px){
-    .content{
-        width: 40%;  
-        margin: 50px 0 0 105px;
-        
-   }
+   /* End of section by Imo Peter and Doumo Ngumezi */
 
 }
 
@@ -169,10 +162,10 @@ section{
     .header-toggles {
         display: none;
     }
+    /* By Doumo and Imo */
     .content{
         width: 47%;  
-        margin: 50px 0 0 40px;
-            
+        margin: 50px 0 0 40px;     
     }
     .get-started{
         width: 40%;
@@ -213,4 +206,5 @@ section{
         font-size: 20px;
     }  
 }
+/* End of section by Imo Peter and Doumo Ngumezi */
 
