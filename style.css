@@ -96,7 +96,7 @@ nav ul li a:hover {
     margin-bottom: 5px;
 }
 /* Imo and Doumo*/
-section{
+.container{
     display: flex;
     justify-content: space-between;
 }
@@ -135,16 +135,6 @@ section{
 .illus img{
     width: 100%;
 }
-/* End of section by Imo Peter and Doumo Ngumezi */
-@media(max-width:1237px){
-    /* By Doumo and Imo */
-    .content{
-        width: 40%;  
-        margin: 50px 0 0 105px;   
-   }
-   /* End of section by Imo Peter and Doumo Ngumezi */
-
-}
 
 
 /* HEADER RESPONSIVENESS: */
@@ -162,7 +152,16 @@ section{
     .header-toggles {
         display: none;
     }
-    /* By Doumo and Imo */
+   
+}
+/* Container Responsiveness */
+@media(max-width:1237px){
+    .content{
+        width: 40%;  
+        margin: 50px 0 0 105px;   
+   }
+}
+@media (max-width: 1000px){
     .content{
         width: 47%;  
         margin: 50px 0 0 40px;     
@@ -171,6 +170,7 @@ section{
         width: 40%;
     }
 }
+
 @media (max-width: 754px){
     .content{
         width: 90%;  
@@ -193,7 +193,7 @@ section{
     .illus{
         width: 100%;
     }
-    section{
+    .container{
         display: flex;
         justify-content: space-between;
         flex-direction: column-reverse;
@@ -206,5 +206,5 @@ section{
         font-size: 20px;
     }  
 }
-/* End of section by Imo Peter and Doumo Ngumezi */
+/* End of container responsiveness by Imo Peter and Doumo Ngumezi */
 
