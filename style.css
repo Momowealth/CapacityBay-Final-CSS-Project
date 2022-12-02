@@ -470,3 +470,12 @@ footer div ul li a:hover{
 .soc-handles ul li a:hover{
     color: aqua;
 }
+/* Footer Responsiveness */
+@media screen and (max-width:590px){
+    footer{
+       display: block;
+    }
+    .soc-handles ul{
+       justify-content: left;
+    }
+}
