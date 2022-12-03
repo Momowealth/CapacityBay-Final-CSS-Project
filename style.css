@@ -435,6 +435,76 @@ hr{
 }
 /* End of url link section stylimg/responsive */
 
+/* Olivia and praise */
+.bottom-container {
+    background-image: url(./images/bg-boost-desktop.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--DarkViolet);
+    padding-block: 40px;
+}
+
+.bottom-body{
+    display:flex;   
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
+.bottom-body p{
+    color:white;
+    font-size:30px;
+    margin-bottom: 20px;
+}
+.bottom-body button{
+    width:15%;
+    border-radius:30px;
+    background-color:var(--Cyan);
+    color:white;
+    font-weight:bold;
+    font-size:20px;
+    border:none;
+    cursor:pointer;
+}
+.bottom-body button:hover{
+    background-color:rgb(155,229,229);
+}
+@media screen and (max-width:1200px){
+    .bottom-container {
+        background-image: url(./images/bg-boost-mobile.svg);
+        padding-block: 40px;
+    }
+    .bottom-body{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    line-height:10vh;
+    }
+    .bottom-body p{
+    color:white;
+    font-size:30px;
+    }
+    .bottom-body button{
+    width:60%;
+    padding-block: 10px;
+    border-radius:30px;
+    background-color:var(--Cyan);
+    color:white;
+    font-weight:bold;
+    font-size:6vw;
+    border:none;
+    cursor:pointer;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    }
+} 
+/*olivia & praise-end*/    
+
+
+
+
 /* Obimdike Footer: */
 
 footer{
