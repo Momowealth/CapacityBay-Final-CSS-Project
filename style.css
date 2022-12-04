@@ -549,3 +549,147 @@ footer div ul li a:hover{
        justify-content: left;
     }
 }
+
+
+/* Nath, Chuks, Destiny */
+.advanced {
+    /* background: rgb(243, 243, 243); */
+    height: 100vh;
+    text-align: center;
+    width: 80%;
+    margin: 40px auto;
+    padding: 50px 0;
+}
+ 
+.advanced h1 {
+    color: var(--VeryDarkViolet);
+}
+ 
+.advanced p {
+    color: var(--GrayishViolet);
+    width: 40%;
+    font-size: 0.95rem;
+    margin: auto;
+}
+ 
+.cards-container {
+    /* background: dodgerblue; */
+    width: 100%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ 
+.cards-container .card {
+    background-color: #fff;
+    border-radius: 0.8rem;
+    width: 21rem;
+    height: 14rem;
+    box-shadow: -12px 11px 15px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: left;
+}
+ 
+.card .card-image {
+    background-color: var(--VeryDarkBlue);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    align-self: flex-start;
+    margin-top: -65px;
+}
+ 
+.card h1 {
+    font-size: 1rem;
+}
+ 
+.card p {
+    width: 100%;
+    font-size: 0.85rem;
+}
+ 
+.card:nth-of-type(2),
+.card:nth-of-type(3) {
+    position: relative;
+    top: 50px;
+}
+ 
+.card:nth-of-type(3) {
+    position: relative;
+    top: 100px;
+}
+ 
+/* Media Queries for Advanced Section */
+@media (max-width: 1007px) {
+    .advanced {
+        width: 90%;
+    }
+ 
+    .cards-container .card {
+        width: 16rem;
+    }
+ 
+    .card:nth-of-type(2),
+    .card:nth-of-type(3) {
+        top: 30px;
+    }
+ 
+    .card:nth-of-type(3) {
+        position: relative;
+        top: 60px;
+    }
+}
+ 
+@media(max-width: 768px) {
+    .advanced p {
+        width: 60%;
+    }
+ 
+    .cards-container {
+        margin: 100px auto;
+        flex-direction: column;
+        height: 65%;
+ 
+    }
+.card .card-image{
+    margin-top: -50px;
+}
+    .cards-container .card {
+        width: 30rem;
+        text-align: center;
+        padding: 0;
+        }
+ 
+    .card .card-image {
+        align-self: center;
+    }
+ 
+    .card p {
+        font-size: 1rem;
+    }
+ 
+    .card h1 {
+        font-size: 1.1rem;
+    }
+ 
+    .card:nth-of-type(2),
+    .card:nth-of-type(3) {
+        top: 0;
+    }
+ 
+}
+@media(max-width: 640px) {
+    .advanced p {
+        width: 80%;
+    }
+    .cards-container .card {
+        width: 20rem;
+        padding: 10px;
+    }
+}
