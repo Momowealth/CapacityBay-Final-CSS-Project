@@ -137,6 +137,7 @@ nav ul li a:hover {
 }
 
 
+
 /* HEADER RESPONSIVENESS: */
 
 @media (max-width: 1000px){
@@ -153,3 +154,59 @@ nav ul li a:hover {
         display: none;
     }
 }
+/* Container Responsiveness */
+@media(max-width:1237px){
+    .content{
+        width: 40%;  
+        margin: 50px 0 0 105px;   
+   }
+   /* End of section by Imo Peter and Doumo Ngumezi */
+
+}
+@media (max-width: 1000px){
+    .content{
+        width: 47%;  
+        margin: 50px 0 0 40px;     
+    }
+    .get-started{
+        width: 40%;
+    }
+
+}
+
+@media (max-width: 754px){
+    .content{
+        width: 90%;  
+        margin: 50px 0 0 40px;
+            
+    }
+    .get-started{
+        width: 40%;
+    }
+}
+@media (max-width: 522px){
+    .content{
+        margin: auto;
+        text-align: center;     
+    }
+    .get-started{
+        width: 60%;
+        margin: 30px auto;
+    }
+    .illus{
+        width: 100%;
+    }
+    .container{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column-reverse;
+    }
+    .More{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .build{
+        font-size: 20px;
+    }  
+}
+/* End of container responsiveness by Imo Peter and Doumo Ngumezi */
